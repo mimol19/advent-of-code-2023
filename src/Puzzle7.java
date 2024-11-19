@@ -10,7 +10,7 @@ public class Puzzle7 {
         int sum = 0;
         int mapIndex = 0;
 
-        InputStream inputStream = Puzzle1.class.getResourceAsStream("data7.txt");
+        InputStream inputStream = Puzzle7.class.getResourceAsStream("data7.txt");
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream))) {
             String line;
             while ((line = reader.readLine()) != null) {
